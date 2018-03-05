@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/edittextNameSignup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Name" />
+
+    <EditText
+        android:id="@+id/edittextLastSignup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Last Name" />
+
+    <EditText
+        android:id="@+id/edittextEmailSignup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Email Address"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/edittextPasswordSignup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:hint="Password"/>
+
+    <CheckBox
+        android:id="@+id/checkboxSignUp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show"
+        />
+
+    <Button
+        android:id="@+id/buttonSignup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign Up" />
+
+</LinearLayout>

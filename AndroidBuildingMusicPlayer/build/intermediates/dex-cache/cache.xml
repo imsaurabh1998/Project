@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\SAURABH\AndroidStudioProjects\AndroidBuildingMusicPlayer\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="86e09bbc16608e48c5c190a6582c1f55bcde8bde">
+        <dex dex="C:\Users\SAURABH\AndroidStudioProjects\AndroidBuildingMusicPlayer\app\build\intermediates\pre-dexed\debug\instant-run-bootstrap_788e0dc3bcecfd3a03bfd506cf0e0a9608f52ea4.jar" />
+    </item>
+    <item
+        jar="C:\Users\SAURABH\AndroidStudioProjects\AndroidBuildingMusicPlayer\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="8a01a05f711401051726dec40a2cad2f46caabf6">
+        <dex dex="C:\Users\SAURABH\AndroidStudioProjects\AndroidBuildingMusicPlayer\app\build\intermediates\pre-dexed\debug\instant-run_118f8986f6d9406d16a2b5b4f4e6583c5e35b51d.jar" />
+    </item>
+
+</items>

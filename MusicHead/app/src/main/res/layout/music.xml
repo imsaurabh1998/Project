@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    tools:context=".Play">
+
+    <ListView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/list"
+        android:layout_weight="1.0"
+
+      />
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/screen_background_light"
+        android:orientation="vertical"
+        android:padding="10dip"
+        >
+        
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/selectedfile"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:gravity="center_horizontal"
+            android:text="Not File Selected"
+            android:textColor="@android:color/black"
+            />
+        
+        <SeekBar
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/seekbar"
+            android:max="100"
+            android:paddingBottom="10dip"
+            />
+        
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/screen_background_light"
+            android:orientation="horizontal"
+            
+            >
+            
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/prev"
+               android:src="@android:drawable/ic_media_previous"
+                />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/play"
+                android:src="@android:drawable/ic_media_play"
+                />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/next"
+                android:src="@android:drawable/ic_media_next"
+                />
+            
+            
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
