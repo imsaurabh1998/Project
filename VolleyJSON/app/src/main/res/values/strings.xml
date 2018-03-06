@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">VolleyJSON</string>
+    <string name="button">Tapped ME</string>
+</resources>
